@@ -1,0 +1,74 @@
+﻿@charset "utf-8";
+/* Reset
+-------------------------------------------------------------- */
+html,
+body { 
+	position: relative;
+	width: 100%; 
+	min-height: 100%;
+}
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select { 
+	margin: 0; 
+	padding: 0;
+}
+body { 
+	font: normal 16px "Microsoft YaHei","Arial Narrow"; 
+	color: #666;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+	-ms-touch-action: pan-y;
+	background-color: #efefef;
+}
+* {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent; /* For some Androids */
+    outline: none;
+}
+h1, h2, h3, h4, h5, h6 { 
+	line-height: 100%; 
+	font-weight: 100;
+}
+a { 
+	color: #666; 
+	text-decoration: none;
+	cursor: pointer;
+}
+em { font-style: normal; }
+ul { list-style: none outside none; }
+img { 
+	border: 0 none; 
+	-ms-interpolation-mode: bicubic;
+}
+table { 
+	border-collapse: collapse; 
+	border-spacing: 0;
+}
+header,footer,article,section,hgroup,nav,figure { display: block; }
+i { font-style: normal; }
+strong { 
+	font-weight: normal; 
+	line-height: 130% !important;
+}
+input[type="text"], input[type="email"], input[type="search"], input[type="password"] {
+	-webkit-appearance: caret; 
+	-moz-appearance: caret;
+	font-family: "Microsoft YaHei","Arial Narrow"; 
+}
+
+.clearfix { *zoom: 1; }
+.clearfix:before, .clearfix:after { 
+	display: table; 
+	line-height: 0; 
+	content: "";
+}
+.clearfix:after { clear: both; }
+
+.fl { float: left; }
+.fr { float: right; }
+.ta-l { text-align: left !important; }
+.ta-c { text-align: center !important; }
+.ta-r { text-align: right !important; }
+.ps-r { position:  relative !important;}
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
